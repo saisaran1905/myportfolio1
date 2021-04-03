@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -52,17 +51,6 @@ table {
 
 /* Css Begins */
 
-body {
-    margin-left: 3rem;
-}
-
-.nav-container .logo {
-    font-size: 1.5rem;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-
-}
 
 .nav-container {
     margin: 2em;  
@@ -78,9 +66,7 @@ body {
 .nav-container nav ul {
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
-    margin-right: 2em;
-    
+    margin: 1.8em 2em;
     align-items: center;
     padding-left: 10px;
     text-decoration: none;
@@ -99,7 +85,7 @@ body {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 header {
@@ -117,50 +103,39 @@ header {
         display: flex;
         
         min-width: 320px;
-        
-        font-weight: 600;
+        max-width: 65%;
+        font-weight: 700;
         flex-direction: column;
-        font-size: 2em;
-       /* align-items: center; */
+        font-size: 1.6em;
+        align-items: center;
         line-height: 1.5em;
-        font-family: 'Poppins', sans-serif;
-}
-
-.content h1 {
-    margin-top: 2em;
-    font-size:;
-    ;
 }
     
-.content p {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 1.4em;
-    max-width: 50%;
-    margin-top: 1em;
+.content .textInRed {
+    color:#E63946;
+    font-weight: 600;
 }
 
-.content .content-highlight {
-    font-weight: 550;
-    color: #DA1010;
-    font-size: 20px;
-    background-color: aliceblue;
+.content .textInBlack {
+    font-weight: 700;
+    
 }
 
-
+.project-area {
+    margin: 0.5em 2em 2em 2em;
+    place-content: center;
+    
+}
 .project-area .project-title {
-    font-weight: 550;
-    font-size: 1.2em;
-    margin: 7em 0 1.5em 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: aliceblue;
-    max-width: 172px;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 2.6em 0 1em 0;
 }
 
-.thumbnail-grid-item {
-    
+.thumbnail-grid {
+    margin: 8px 0 0 0;
     padding: 0;
-    display: block;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
@@ -198,34 +173,9 @@ header {
     font-size: 1.2em;
     font-weight: 600;
     color: #30362F;
-    margin-bottom: 0.8em;
-    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1.2em;
 }
 
-.card-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    color:#30362F;
-    line-height: 1.4em;
-    font-weight: 400;
-}
-
-.card-label {
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9em;
-    color: #30362F;
-    font-weight: 550;
-    margin-top: 1.5em;
-    padding: 10px;
-    border-radius: 6px;
-    margin-bottom:30%;
-    
-
-}
-
-.card-body {
-    min-height: 500px ;
-}
 .card-subtitle {
     color: #616161b6;
     font-size: 0.9em;
@@ -260,8 +210,8 @@ header {
 
 footer {
     padding: 2em 0 0 0;
-    margin: 2 auto;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-color: blanchedalmond;
     width: 100%;
 }
 
