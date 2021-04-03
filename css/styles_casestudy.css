@@ -50,19 +50,8 @@ table {
 
 /* Css Begins here */
 
-
-.nav-container .logo {
-    font-size: 1.5rem;
-    color: #000;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    text-decoration: none;
-
-}
-
 .nav-container {
     margin: 2em;
-    margin-left: 5em;
 }
 
 .nav-container svg {
@@ -72,9 +61,7 @@ table {
 .nav-container nav ul {
     display: flex;
     justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
-    margin-right: 2em;
-    
+    margin: 1.8em 2em;
     align-items: center;
     padding-left: 10px;
     text-decoration: none;
@@ -93,14 +80,7 @@ table {
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 15px;
-}
-
-img {
-    max-width: 100%;
-    vertical-align: middle;
-    
-
+    font-size: 18px;
 }
 
 header {
@@ -110,10 +90,8 @@ header {
 }
 
 .hero-casestudy {
-    margin: 4em 2em 2em 2em;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 5em;
-
+    margin: 1.5em 2em 2em 2em;
+    background-color: blanchedalmond;
 }
 
 .hero-casestudy .intro {
@@ -130,34 +108,26 @@ header {
 
 .case-title {
     font-size: 2em;
-    margin-bottom: 1em;
+    padding: 0.5em;
     display: inline-block;
-    
 
 }
 
 .case-subtitle {
     font-size: 1.2em;
-    
+    padding: 0.8em;
     font-weight: 500;
 }
 
 .client-details {
     font-size: 1em;
-    min-width: 120px;
+    min-width: 100px;
     font-weight: 600;
     
 } 
 
-.client-details.title-2 {
-    margin-top: 4em;
-}
-.client-details.title-4 {
-    margin-top: 2em;
-}
-
 .client-subtitle {
-    min-width: 120px;
+    min-width: 100px;
 }
 
 .details1, .details2, .details3, .details4 {
@@ -215,8 +185,8 @@ ol {
 }
 footer {
     padding: 2em 0 0 0;
-    margin: 2 auto;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    background-color: blanchedalmond;
     width: 100%;
 }
 
